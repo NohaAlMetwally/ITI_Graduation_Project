@@ -6,7 +6,7 @@ resource "google_container_cluster" "private-cluster" {
   remove_default_node_pool = true
   initial_node_count       = 1
   network                  = google_compute_network.main-network.id
-  subnetwork               = google_compute_subnetwork.restricted_subnet.id
+  subnetwork               = google_compute_subnetwork.management_subnet.id
 
 
   master_authorized_networks_config {
@@ -38,7 +38,7 @@ resource "google_container_node_pool" "nodepool" {
 
   node_config {
     preemptible  = true
-    machine_type = "e2-micro"
+    machine_type = "e2-medium"
     # custom service account
     service_account = google_service_account.node-service-account.email
     oauth_scopes = [
