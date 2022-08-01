@@ -5,7 +5,7 @@
   * $ terraform plan
   * $ terraform apply
 
-### Build Docker image for the pyhton app from the Dockerfile, and upload the image to gcr
+### Build Docker image for the pyhton app from the Dockerfile, and upload the image to docker hub
   * $ docker build -t image-name .
   * $ docker tag image-name your-docker-repo
   * $ docker push your-docker-repo
