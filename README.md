@@ -21,8 +21,7 @@
   * $ gcloud auth login
 
 ### SSH to GKE
-  * copy gke-dep directory
-  * $ kubectl create -Rf gke-dep
+  * $ kubectl create -Rf jenkins-dep
   * $ kubectl get svc -n namespace-name
 
 ### get the load balancer IP and port to access jenkins throgh browser 
