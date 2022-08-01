@@ -27,8 +27,8 @@
 
 ### get the load balancer IP and port to access jenkins throgh browser 
   * to get jenkins bath exec to the pod
-  * $ kubectl get pods -n namespace-name
-  * $ kubectl exec -it -n namespace-name pod-id /bin/sh
+  * $ kubectl get pods -n namespace
+  * $ kubectl exec -it -n namespace pod-id /bin/sh
   
 ### open jenkins and create new item, type pipeline, use this repo 
 * https://github.com/NohaAlMetwally/simple-hello-app.git
