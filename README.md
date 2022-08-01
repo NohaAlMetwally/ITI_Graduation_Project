@@ -10,8 +10,6 @@
   * $ docker tag image-name your-docker-repo
   * $ docker push your-docker-repo
 
-### Pull another redis image from docker hub then push it to gcr
-
 ### SSH to the private VM:
 
 ### Install kubectl
