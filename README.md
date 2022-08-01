@@ -30,7 +30,7 @@
   * $ kubectl get pods -n namespace-name
   * $ kubectl exec -it -n namespace-name pod-id /bin/sh
   
-### open jenkins and create new itme, type pipline, use this repo 
+### open jenkins and create new item, type pipeline, use this repo 
 * https://github.com/NohaAlMetwally/simple-hello-app.git
 
 ![final4](https://user-images.githubusercontent.com/13887135/182176525-1d7f302f-26f4-452d-ab70-9732cfb0c47e.png)
