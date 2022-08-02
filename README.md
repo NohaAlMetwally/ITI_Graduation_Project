@@ -21,6 +21,7 @@
   * $ gcloud auth login
 
 ### SSH to GKE
+  * $ kubectl create namespace
   * $ kubectl create -Rf jenkins-dep
   * $ kubectl get svc -n namespace-name
 
