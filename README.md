@@ -32,8 +32,6 @@
 ### open jenkins and create new item, type pipeline, use this repo 
 * https://github.com/NohaAlMetwally/simple-hello-app.git
 
-![final55](https://user-images.githubusercontent.com/13887135/182382670-a83e0e0f-3042-4e25-822c-367a7e03007b.png)
-
 ![Untitled2](https://user-images.githubusercontent.com/13887135/182382072-d7ee3d65-bc35-4530-8b92-8385007a1b3a.png)
 
 ![final4](https://user-images.githubusercontent.com/13887135/182176525-1d7f302f-26f4-452d-ab70-9732cfb0c47e.png)
